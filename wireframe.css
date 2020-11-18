@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+body main section {
+    margin: 30px;
+    padding: 20px;
+    border: 5px, black;
+    border-style: solid;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+form button {
+    margin: 10px;
+}
+
+form label {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}

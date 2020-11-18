@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="wireframe.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>NBA All-Star Quiz</h1>
+    <!-- keep the name of the quiz on all pages of the quiz. -->
+  </header>
+  <main>
+      <section id="startPage">
+          <h2>This is a quiz about the history and sport of basketball, specifically to the NBA.</h2>
+          <h2>Good luck and have fun!</h2>
+      </section>
+      <section id="questionPage">
+          <form id="question">
+            <h2>What year was the NBA (National Basketball Association) founded?</h2>
+            <input type="radio" id="answer0" name="answer" value="1956">
+            <label for="answer">1956</label><br>
+            <input type="radio" id="answer1" name="answer" value="1946">
+            <label for="answer">1946</label><br>
+            <input type="radio" id="answer2" name="answer" value="1950">
+            <label for="answer">1950</label><br>
+            <input type="radio" id="answer3" name="answer" value="1869">
+            <label for="answer">1869</label><br>
+            <button type="submit">Submit</button>
+          </form>         
+      </section>
+      <section id="feedbackPage">
+          <h2>You got it right!</h2>
+          <p>The answer was: 1946</p>
+          <p>New score: 1 out of 1</p>
+          <form id="nextQuestion">
+            <button type="submit">Next Question</button>
+          </form>
+      </section>
+      <section id="EndPage">
+          <h2>You made it!</h2>
+          <p>Your total score was: 7 out of 10</p>
+          <p>Thanks for taking my quiz!</p>
+          <form id="endForm">
+              <p>Would you like to retake it?</p>
+              <button type="submit">Retake Quiz</button>
+          </form>
+      </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
